@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
+        sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <div class="flex container">
+        <div class="first md:w-[15%]  px-7 hidden md:block ">
+            <ul class="sidebar flex flex-col gap-[33px] fixed ">
+                <img class="w-28 py-2" src="in.png" alt="">
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer" id="home"><span
+                        class="material-symbols-outlined">
+                        home
+                    </span><span class="">Home</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer" id="search"><span
+                        class="material-symbols-outlined">
+                        search
+                    </span><span class="">Search</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer"><span
+                        class="material-symbols-outlined">
+                        explore
+                    </span><span class="">Explore</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer" id="Reels"><span
+                        class="material-symbols-outlined">
+                        video_library
+                    </span><span class="">Reels</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer"><img class="w-4" src="chat.png"
+                        alt=""><span class="">Messages</span></li>
+                <li class="flex justify-start items-center gap-[5px] cursor-pointer"><span
+                        class="material-symbols-outlined">
+                        favorite
+                    </span><span class="">Notifications</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer"><span
+                        class="material-symbols-outlined">
+                        shadow_add
+                    </span><span class="">Create</span></li>
+                <div class="line flex py-6 items-center gap-2 cursor-pointer" id="openweb">
+                    <li><img class=" hiddenpro rounded-full w-8  cursor-pointer" src="pro.jpg" alt=""></li>
+                    <div>Profile</div>
+                </div>
+                <li class="cursor-pointer"><span>@ Thread</span></li>
+                <li class="flex justify-start items-center gap-[6px] cursor-pointer"><span
+                        class="material-symbols-outlined">
+                        menu
+                    </span><span>More</span></li>
+            </ul>
+        </div>
+
+        <!-- Profile -->
+
+        <div class=" first-2 md:mx-[180px] hidden" id="hiddenContent">
+            <div class="pro list-none flex gap-5 py-2">
+                <li><span class="material-symbols-outlined pl-2">
+                        lock
+                    </span></li>
+                <li class="font-medium h-8">maaz_shakeel</li>
+                <li><span class="material-symbols-outlined ">
+                        expand_more
+                    </span></li>
+                <li><span class="material-symbols-outlined ml-32 ">
+                        shadow_add
+                    </span></li>
+                <li><span class="material-symbols-outlined">
+                        menu
+                    </span></li>
+
+            </div>
+            <div class="flex list-none justify-between items-center mt-4">
+                <img class="rounded-full w-[75px] border-red-500 border-2 cursor-pointer  ml-4" src="1.jpg" alt="">
+                <li>
+                    <div class="ml-5 font-medium">0</div>
+                    <span>posts</span>
+                </li>
+                <li>
+                    <div class="ml-5 font-medium">54</div>
+                    <span>followers</span>
+                </li>
+                <li class="mr-6">
+                    <div class="ml-5 font-medium">87</div>
+                    <span>following</span>
+                </li>
+            </div>
+            <div class="ml-4 mt-3">
+                <div class="font-semibold">ᗰᗩᗩᘔ $ᕼᗩKEEᒪ
+                </div>
+                <div>
+                    #include<iostream>
+                </div>
+                <div>
+                    using namespace std
+                </div>
+                <div>
+                    int main()</div>
+                <div>
+                    cout"There is no god but ALLAHendl;</div>
+                <div>
+                    cout"Namaz is the key to Heaven" endl;
+                </div>
+                <div>
+                    return 0
+                </div>
+            </div>
+            <div class="flex justify-between mt-4">
+                <div class="bg-gray-300 rounded-md px-10 py-2 ml-4">Edit profile</div>
+                <div class="bg-gray-300 rounded-md px-10 py-2">Share profile</div>
+                <span class="material-symbols-outlined bg-gray-300 rounded-md px-4 py-2">
+                    person_add
+                </span>
+            </div>
+
+            <div class="flex mt-4 ml-2">
+                <li class="list-none">
+                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-4 " src="2.jpg" alt="">
+                    <span class="text-[12px] ml-5">Farewell...</span>
+                </li>
+                <li class="list-none">
+                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-4" src="3.jpg" alt="">
+                    <span class="text-[12px] ml-5">Last Day...</span>
+                </li>
+                <li class="list-none">
+                    <img class="rounded-full w-[60px] border-2 cursor-pointer  ml-4" src="plusa.png" alt="">
+                    <span class="text-[12px] ml-8">New</span>
+                </li>
+            </div>
+
+            <div class="flex justify-around mt-6">
+                <span class="material-symbols-outlined">
+                    grid_view
+                </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+            </div>
+            <div class="bg-gray-300 h-[2px] w-[100%]  mt-2">
+                <div class="bg-black h-[2px] w-52  z-10"></div>
+            </div>
+
+            <div class="photos flex">
+                <img class="w-[141px]  cursor-pointer p-0.5 " src="3.jpg" alt="">
+                <img class="w-[141px] cursor-pointer p-0.5" src="6.jpg" alt="">
+                <img class="w-[141px] cursor-pointer p-0.5" src="4.jpg" alt="">
+
+            </div>
+            <div class="photos flex">
+                <img class="w-[141px]  cursor-pointer  p-0.5" src="8.jpg" alt="">
+                <img class="w-[141px] cursor-pointer  p-0.5" src="9.jpg" alt="">
+                <img class="w-[141px] cursor-pointer  p-0.5" src="7.jpg" alt="">
+            </div>
+            <div class="photos flex">
+                <img class="w-[141px]  cursor-pointer pb-12 p-0.5" src="5.jpg" alt="">
+                <img class="w-[141px] cursor-pointer pb-12 p-0.5" src="11.jpg" alt="">
+                <img class="w-[141px] cursor-pointer pb-12 p-0.5" src="10.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Reels  -->
+
+        <div class="hidden md:mx-[180px]" id="reelcontent">
+            <div class="relative">
+                <div>
+                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="2.mp4" muted
+                        loop autoplay controls></video>
+                </div>
+                <div class="flex items-center absolute top-[440px] px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="10.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-2 cursor-pointer text-white">amangupta1</div>
+                    </div>
+                    <div
+                        class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
+                        Follow</div>
+                </div>
+                <div class=" absolute top-[495px] ml-6">
+                    <div class="text-white ">Beauty of islam</div>
+                </div>
+                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+
+                    <span class="material-symbols-outlined cursor-pointer invert like" id="like">
+                        favorite
+                    </span>
+
+                    <span class="material-symbols-outlined  cursor-pointer invert">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer invert">
+                        send
+                    </span>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div>
+                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="1.mp4" muted
+                        loop autoplay controls></video>
+                </div>
+                <div class="flex items-center absolute top-[440px] px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="3.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-2 cursor-pointer text-white">rahatsriii.</div>
+                    </div>
+                    <div
+                        class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
+                        Follow</div>
+                </div>
+                <div class=" absolute top-[495px] ml-6">
+                    <div class="text-white ">Deeni Ilm By Tauha</div>
+                </div>
+                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                    <span class="material-symbols-outlined  cursor-pointer invert like" id="like1">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined  cursor-pointer invert">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer invert">
+                        send
+                    </span>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div>
+                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="3.mp4" muted
+                        loop autoplay controls></video>
+                </div>
+                <div class="flex items-center absolute top-[440px] px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="13.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-2 cursor-pointer text-white">abbasraza22</div>
+                    </div>
+                    <div
+                        class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
+                        Follow</div>
+                </div>
+                <div class=" absolute top-[495px] ml-6">
+                    <div class="text-white ">Beautifull voice...</div>
+                </div>
+                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                    <span class="material-symbols-outlined  cursor-pointer invert like" id="like2">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined  cursor-pointer invert">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer invert">
+                        send
+                    </span>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div>
+                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md mb-14" src="5.mp4"
+                        muted loop autoplay controls></video>
+                </div>
+                <div class="flex items-center absolute top-[440px] px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="12.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-2 cursor-pointer text-white">AliRaza</div>
+                    </div>
+                    <div
+                        class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
+                        Follow</div>
+                </div>
+                <div class=" absolute top-[495px] ml-6">
+                    <div class="text-white ">Today's Dhikr...</div>
+                </div>
+                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                    <span class="material-symbols-outlined  cursor-pointer invert like" id="like3">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined  cursor-pointer invert">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer invert">
+                        send
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Screen -->
+
+        <div class="second md:w-[54%] border-l w-full overflow-hidden md:overflow-visible  block " id="secondContent">
+            <div class="up h-12 md:hidden block ">
+                <div class="flex items-center justify-between">
+                    <img class="w-28 pl-4" src="in.png" alt="">
+                    <span class="material-symbols-outlined  cursor-pointer ml-[50%]">
+                        favorite
+                    </span>
+                    <img class="w-5 mr-4" src="chat.png" alt="">
+                </div>
+            </div>
+
+            <div
+                class="arrange  gap-[15px] flex  items-center list-none my-4 overflow-scroll md:overflow-visible mr-[100px] ml-[12px] md:ml-[60px]  w-[150%] no-scrollbar">
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="1.jpg" alt="">
+                    <span class="text-[12px]">maaz_shakeel</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="2.jpg" alt="">
+                    <span class="text-[12px]">ahsan_absar</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="3.jpg" alt="">
+                    <span class="text-[12px]">hamidsheikh_</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="4.jpg" alt="">
+                    <span class="text-[12px]">_sadiq_sidd</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="5.jpg" alt="">
+                    <span class="text-[12px]">zaki_ansari</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="6.jpg" alt="">
+                    <span class="text-[12px]">_ahad_ansari</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="7.jpg" alt="">
+                    <span class="text-[12px]">yusuf_abbas</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="8.jpg" alt="">
+                    <span class="text-[12px]">abid_khan</span>
+                </li>
+
+                <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="9.jpg" alt="">
+                    <span class="text-[12px]">aquib_ansari</span>
+                </li>
+
+            </div>
+            <div class="content flex flex-col my-2 md:my-12 ml-0.5 md:mx-44 gap-4 w-[99%] ">
+                <div class="flex items-center ">
+                    <img class="rounded-full w-10 border-red-500 border-2 cursor-pointer ml-3 md:ml-0" src="1.jpg"
+                        alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="b-t flex">
+                            <div class="profileN ml-4 cursor-pointer">maaz_shakeel</div>
+                            <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                            <div class="text-gray-500 text-[13px] pl-2">.5h</div>
+                        </div>
+                        <div class="Location ml-4 text-[10px]">Lucknow</div>
+                    </div>
+                    <div class="icon flex justify-end pl-52"><svg aria-label="More options"
+                            class=" x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img"
+                            viewBox="0 0 24 24" width="24">
+                            <circle cx="12" cy="12" r="1.5"></circle>
+                            <circle cx="6" cy="12" r="1.5"></circle>
+                            <circle cx="18" cy="12" r="1.5"></circle>
+                        </svg></div>
+                </div>
+                <div>
+                    <img class="w-[444px] rounded-sm" src="lko.jpg" alt="">
+                    <span class="material-symbols-outlined  cursor-pointer ml-2" id="like4">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        send
+                    </span>
+                    <span class="material-symbols-outlined ml-[280px] md:ml-72 cursor-pointer">
+                        bookmark
+                    </span>
+                    <div class="font-semibold ml-2">210,210 likes</div>
+                    <div class="b-t flex items-center">
+                        <div class="profileN font-semibold cursor-pointer ml-2">maaz_shakeel</div>
+                        <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                        <div class=" text-[13px] pl-2">What a view...</div>
+                    </div>
+                    <div class="font-semibold text-[13px]  cursor-pointer ml-2">See translation</div>
+                    <div class=" text-gray-500 cursor-pointer ml-2">View all 50,129 comments</div>
+                    <div class=" text-gray-500 justify-between flex cursor-pointer ml-2">Add a comment...<span
+                            class="material-symbols-outlined  cursor-pointer mr-2 md:mr-96">
+                            sentiment_satisfied
+                        </span></div>
+                    <div class="h-[0.3px] bg-gray-300 mt-6 w-[450px]"></div>
+                </div>
+            </div>
+            <div class="content flex flex-col my-4 ml-0.5 md:mx-44 gap-4 w-[99%]">
+                <div class="flex items-center">
+                    <img class="rounded-full w-10 border-red-500 border-2 cursor-pointer ml-3 md:ml-0" src="2.jpg"
+                        alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="b-t flex">
+                            <div class="profileN ml-4 cursor-pointer">shaban_ansari</div>
+                            <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                            <div class="text-gray-500 text-[13px] pl-2">.2h</div>
+                        </div>
+                        <div class="Location ml-4 text-[10px]">Varansi</div>
+                    </div>
+                    <div class="icon flex justify-end pl-52"><svg aria-label="More options"
+                            class=" x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img"
+                            viewBox="0 0 24 24" width="24">
+                            <circle cx="12" cy="12" r="1.5"></circle>
+                            <circle cx="6" cy="12" r="1.5"></circle>
+                            <circle cx="18" cy="12" r="1.5"></circle>
+                        </svg></div>
+                </div>
+                <div>
+                    <img class="w-[444px] rounded-sm" src="m-s.jpeg" alt="">
+                    <span class="material-symbols-outlined  cursor-pointer ml-2" id="like5">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        send
+                    </span>
+                    <span class="material-symbols-outlined ml-[280px] md:ml-72 pt-2  cursor-pointer">
+                        bookmark
+                    </span>
+                    <div class="font-semibold ml-2">190,210 likes</div>
+                    <div class="b-t flex items-center">
+                        <div class="profileN font-semibold cursor-pointer ml-2">shaban_ansari</div>
+                        <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                        <div class=" text-[13px] pl-2">Bhanja...</div>
+                    </div>
+                    <div class="font-semibold text-[13px]  cursor-pointer ml-2">See translation</div>
+                    <div class=" text-gray-500 cursor-pointer ml-2">View all 20,129 comments</div>
+                    <div class=" text-gray-500 justify-between flex cursor-pointer ml-2">Add a comment...<span
+                            class="material-symbols-outlined mr-2 md:mr-96 cursor-pointer ">
+                            sentiment_satisfied
+                        </span></div>
+                    <div class="h-[0.3px] bg-gray-300 mt-6 w-[450px]"></div>
+                </div>
+
+            </div>
+            <div class="content flex flex-col my-4 ml-0.5 md:mx-44 gap-4 w-[99%]">
+                <div class="flex items-center">
+                    <img class="rounded-full w-10 border-red-500 border-2 cursor-pointer ml-3 md:ml-0" src="4.jpg"
+                        alt="">
+                    <div class="down flex flex-col ">
+                        <div class="b-t flex">
+                            <div class="profileN ml-4 cursor-pointer">maaz_shakeel</div>
+                            <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                            <div class="text-gray-500 text-[13px] pl-2">.1h</div>
+                        </div>
+                        <div class="Location ml-4 text-[10px]">Lucknow</div>
+                    </div>
+                    <div class="icon flex justify-end pl-52"><svg aria-label="More options"
+                            class=" x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img"
+                            viewBox="0 0 24 24" width="24">
+                            <circle cx="12" cy="12" r="1.5"></circle>
+                            <circle cx="6" cy="12" r="1.5"></circle>
+                            <circle cx="18" cy="12" r="1.5"></circle>
+                        </svg></div>
+                </div>
+                <div>
+                    <img class="w-[444px] rounded-sm" src="maaz-w.webp" alt="">
+                    <span class="material-symbols-outlined  cursor-pointer ml-2" id="like6">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        send
+                    </span>
+                    <span class="material-symbols-outlined ml-[280px] md:ml-72 pt-2 cursor-pointer ">
+                        bookmark
+                    </span>
+                    <div class="font-semibold ml-2">320,214 likes</div>
+                    <div class="b-t flex items-center">
+                        <div class="profileN font-semibold cursor-pointer ml-2">maaz_shakeel</div>
+                        <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                        <div class=" text-[13px] pl-2">White...</div>
+                    </div>
+                    <div class="font-semibold text-[13px]  cursor-pointer ml-2">See translation</div>
+                    <div class=" text-gray-500 cursor-pointer ml-2">View all 60,132 comments</div>
+                    <div class=" text-gray-500 justify-between flex cursor-pointer ml-2">Add a comment...<span
+                            class="material-symbols-outlined mr-2 md:mr-96 cursor-pointer">
+                            sentiment_satisfied
+                        </span></div>
+                    <div class="h-[0.3px] bg-gray-300 mt-6 w-[450px]"></div>
+                </div>
+            </div>
+
+            <div class="content flex flex-col my-4 ml-0.5 md:mx-44 gap-4 w-[99%]">
+                <div class="flex items-center">
+                    <img class="rounded-full w-10 border-red-500 border-2 cursor-pointer ml-3 md:ml-0" src="7.jpg"
+                        alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="b-t flex">
+                            <div class="profileN ml-4 cursor-pointer">ahsan_absar</div>
+                            <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                            <div class="text-gray-500 text-[13px] pl-2">.8h</div>
+                        </div>
+                        <div class="Location ml-4 text-[10px]">Lucknow</div>
+                    </div>
+                    <div class="icon flex justify-end pl-52"><svg aria-label="More options"
+                            class=" x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img"
+                            viewBox="0 0 24 24" width="24">
+                            <circle cx="12" cy="12" r="1.5"></circle>
+                            <circle cx="6" cy="12" r="1.5"></circle>
+                            <circle cx="18" cy="12" r="1.5"></circle>
+                        </svg></div>
+                </div>
+                <div>
+                    <img class="w-[444px] rounded-sm" src="ahsan.webp" alt="">
+                    <span class="material-symbols-outlined cursor-pointer ml-2" id="like7">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        mode_comment
+                    </span>
+                    <span class="material-symbols-outlined ml-2 cursor-pointer">
+                        send
+                    </span>
+                    <span class="material-symbols-outlined ml-[280px] md:ml-72  pt-2  cursor-pointer">
+                        bookmark
+                    </span>
+                    <div class="font-semibold ml-2">10,210 likes</div>
+                    <div class="b-t flex items-center">
+                        <div class="profileN font-semibold cursor-pointer ml-2">ahsan_absar</div>
+                        <img class="w-4 h-4 flex mt-1 gap-3" src="b-t.png" alt="">
+                        <div class=" text-[13px] pl-2 ">Selfiee...</div>
+                    </div>
+                    <div class="font-semibold text-[13px]  cursor-pointer ml-2">See translation</div>
+                    <div class=" text-gray-500 cursor-pointer ml-2">View all 4,129 comments</div>
+                    <div class=" text-gray-500 justify-between flex cursor-pointer ml-2">Add a comment...<span
+                            class="material-symbols-outlined  mr-2 md:mr-96 cursor-pointer">
+                            sentiment_satisfied
+                        </span></div>
+                    <div class="h-[0.3px] bg-gray-300 mt-6 w-[450px]"></div>
+                </div>
+            </div>
+
+            <div class="anchor pt-8 text-gray-400 flex justify-center gap-3 ml-[-20px]  md:ml-0 flex-wrap">
+                <a class="text-[12px] pl-4" href="https://www.google.co.in">Google.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">About.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Help.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Press.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">API.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Jobs</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Privacy.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Terms</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Locations.</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Language</a>
+                <a class="text-[12px]" href="https://www.google.co.in">Meta </a>
+            </div>
+            <div class="foot pt-2 pl-4 pb-14 text-gray-400 flex justify-center ml-[-14px] md:ml-[2px] w-[100%] ">@2024
+                Maaz
+                All Right Reserved</div>
+        </div>
+
+
+        <!-- Search -->
+
+        <div class="hidden md:mx-[180px]" id="SearchContent">
+            <input class="bg-gray-300 border-gray-400 rounded-lg border-2 pl-4 my-3 w-[398px] h-8 ml-3" type="text"
+                placeholder="Search..">
+            <div class="flex">
+                <video class="object-cover object-top h-[400px] w-[222px] ml-3 rounded-md" src="1.mp4" muted loop
+                    autoplay controls></video>
+                <div>
+                    <video class="object-cover object-top h-[200px] w-[172px] ml-1 rounded-md" src="2.mp4" muted loop
+                        controls></video>
+                    <video class="object-cover object-top h-[195px] w-[172px] ml-1 rounded-md mt-1" src="3.mp4" muted
+                        loop controls></video>
+                </div>
+            </div>
+            <div class="flex mb-12">
+                <div class="mt-1">
+                    <img class="object-cover object-top h-[200px] w-[172px] ml-3 rounded-md" src="9.jpg" muted loop
+                        controls></img>
+                    <video class="object-cover object-top h-[195px] w-[172px] ml-3 rounded-md mt-1" src="5.mp4" muted
+                        loop controls></video>
+                </div>
+                <video class="object-cover object-top h-[400px] w-[222px] ml-1 rounded-md mt-1" src="4.mp4" muted loop
+                    autoplay controls></video>
+            </div>
+        </div>
+
+
+
+
+        <!-- Third Part -->
+
+        <div class="third w-[30%] hidden xl:block ">
+            <div class="hidden md:block" id="Thirdcontent">
+                <div class="flex items-center py-5 px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="pro.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@maazshakeel</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">M@@ZSH@KEEL</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Switch</div>
+                </div>
+
+                <div class="flex items-center py-5 px-4">
+                    <div class="down flex flex-col ">
+                        <div class="profileN  text-gray-500 text-[15px] font-[400]">Suggested For You</div>
+
+                    </div>
+                    <div class="blue text-gray-800 px-32 text-[12px] font-bold cursor-pointer">See All</div>
+                </div>
+
+                <div class="flex items-center  px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="10.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@hamidsheikh</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">suggested for you</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Follow</div>
+                </div>
+
+                <div class="flex items-center py-5 px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="11.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@sadiqsiddiqui</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">suggested for you</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Follow</div>
+                </div>
+
+                <div class="flex items-center  px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="12.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@ahsanabsar</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">suggested for you</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Follow</div>
+                </div>
+
+                <div class="flex items-center py-5 px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="13.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@zakiansari</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">suggested for you</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Follow</div>
+                </div>
+
+                <div class="flex items-center  px-4">
+                    <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="15.jpg" alt="">
+                    <div class="down flex flex-col m-">
+                        <div class="profileN ml-4 cursor-pointer">@ahadansari</div>
+                        <div class="Location mx-6 text-[14px] cursor-pointer">suggested for you</div>
+                    </div>
+                    <div class="blue text-blue-700 px-11 font-semibold cursor-pointer">Follow</div>
+                </div>
+                <div class="anchor pt-8 text-gray-400">
+                    <a class="text-[12px] pl-4" href="https://www.google.co.in">Google.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">About.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Help.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Press.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">API.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Jobs</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Privacy.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Terms</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Locations.</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Language</a>
+                    <a class="text-[12px]" href="https://www.google.co.in">Meta </a>
+                </div>
+                <div class="foot pt-2 pl-4 text-gray-400">@2024 Maaz All Right Reserved</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed bg-white  bottom-0 w-full h-12  block md:hidden ">
+        <div class="flex list-none h-12 justify-between items-center">
+            <li id="homemob"><span class="material-symbols-outlined ml-5">
+                    home
+                </span></li>
+            <li><span class="material-symbols-outlined" id="searchmob">
+                    search
+                </span></li>
+            <li><span class="material-symbols-outlined">
+                    explore
+                </span></li>
+            <li><span class="material-symbols-outlined" id="ReelsMob">
+                    video_library
+                </span></li>
+            <li><img class="rounded-full w-6  cursor-pointer mr-5" id="open" src="pro.jpg" alt=""></li>
+
+        </div>
+    </div>
+    </div>
+    <script>
+
+        // script for profile click 
+
+        document.getElementById("open").addEventListener("click", profileFunction);
+        document.getElementById("openweb").addEventListener("click", profileFunction);
+        function profileFunction() {
+            const hiddenContent = document.getElementById("hiddenContent");
+            const SearchContent = document.getElementById("SearchContent");
+            const secondContent = document.getElementById("secondContent");
+            const reelcontent = document.getElementById("reelcontent");
+            if (hiddenContent.classList.contains("hidden")) {
+                hiddenContent.classList.remove("hidden");
+                secondContent.classList.add("hidden");
+                SearchContent.classList.add("hidden");
+                reelcontent.classList.add("hidden");
+            }
+            else {
+                hiddenContent.classList.add("hidden");
+                SearchContent.classList.add("hidden");
+                secondContent.classList.remove("hidden");
+            }
+        };
+        // script for search
+
+        document.getElementById("search").addEventListener("click", searchFunction);
+        document.getElementById("searchmob").addEventListener("click", searchFunction);
+        function searchFunction() {
+            const SearchContent = document.getElementById("SearchContent");
+            const hiddenContent = document.getElementById("hiddenContent");
+            const secondContent = document.getElementById("secondContent");
+            const reelcontent = document.getElementById("reelcontent");
+            if (SearchContent.classList.contains("hidden")) {
+                SearchContent.classList.remove("hidden");
+                secondContent.classList.add("hidden");
+                hiddenContent.classList.add("hidden");
+                reelcontent.classList.add("hidden");
+            } else {
+                SearchContent.classList.add("hidden");
+                secondContent.classList.remove("hidden");
+            }
+        };
+
+
+        // Script for home 
+
+
+        document.getElementById("home").addEventListener("click", homeFunction);
+        document.getElementById("homemob").addEventListener("click", homeFunction);
+        function homeFunction() {
+            const SearchContent = document.getElementById("SearchContent");
+            const hiddenContent = document.getElementById("hiddenContent");
+            const secondContent = document.getElementById("secondContent");
+            const reelcontent = document.getElementById("reelcontent");
+            if (secondContent.classList.contains("hidden")) {
+                secondContent.classList.remove("hidden");
+                SearchContent.classList.add("hidden");
+                hiddenContent.classList.add("hidden");
+                reelcontent.classList.add("hidden");
+            } else {
+                secondContent.classList.remove("hidden")
+
+            };
+        }
+
+        // For Reels 
+
+        document.getElementById("Reels").addEventListener("click", reelFunction);
+        document.getElementById("ReelsMob").addEventListener("click", reelFunction);
+        function reelFunction() {
+            const SearchContent = document.getElementById("SearchContent");
+            const hiddenContent = document.getElementById("hiddenContent");
+            const secondContent = document.getElementById("secondContent");
+            const reelcontent = document.getElementById("reelcontent");
+            if (reelcontent.classList.contains("hidden")) {
+                reelcontent.classList.remove("hidden");
+                SearchContent.classList.add("hidden");
+                hiddenContent.classList.add("hidden");
+                secondContent.classList.add("hidden");
+            } else {
+                reelcontent.classList.add("hidden")
+                secondContent.classList.remove("hidden")
+            };
+        }
+
+        // likes
+        // Add click event listeners to all elements with IDs starting with "like"
+        document.querySelectorAll('[id^="like"]').forEach(element => {
+            element.addEventListener("click", likeFunction);
+        });
+
+        function likeFunction(event) {
+            const likeIcon = event.currentTarget;
+            if (likeIcon.classList.contains("text-blue-500")) {
+                likeIcon.classList.remove("text-blue-500");
+            } else {
+                likeIcon.classList.add("text-blue-500");
+            }
+        }
+    </script>
+</body>
+
+</html>
