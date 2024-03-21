@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Instagram</title>
     <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
         sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -15,7 +15,7 @@
 
 <body>
     <div class="flex container">
-        <div class="first md:w-[15%]  px-7 hidden md:block ">
+        <div class="first w-[15%]  px-7 hidden md:block ">
             <ul class="sidebar flex flex-col gap-[33px] fixed ">
                 <img class="w-28 py-2" src="in.png" alt="">
                 <li class="flex justify-start items-center gap-[6px] cursor-pointer" id="home"><span
@@ -67,7 +67,7 @@
                 <li><span class="material-symbols-outlined ">
                         expand_more
                     </span></li>
-                <li><span class="material-symbols-outlined ml-32 ">
+                <li><span class="material-symbols-outlined ml-16 ">
                         shadow_add
                     </span></li>
                 <li><span class="material-symbols-outlined">
@@ -76,7 +76,7 @@
 
             </div>
             <div class="flex list-none justify-between items-center mt-4">
-                <img class="rounded-full w-[75px] border-red-500 border-2 cursor-pointer  ml-4" src="1.jpg" alt="">
+                <img class="rounded-full w-[75px] border-red-500 border-2 cursor-pointer  ml-2" src="1.jpg" alt="">
                 <li>
                     <div class="ml-5 font-medium">0</div>
                     <span>posts</span>
@@ -90,7 +90,7 @@
                     <span>following</span>
                 </li>
             </div>
-            <div class="ml-4 mt-3">
+            <div class="ml-2 mt-3">
                 <div class="font-semibold">ᗰᗩᗩᘔ $ᕼᗩKEEᒪ
                 </div>
                 <div>
@@ -110,26 +110,26 @@
                     return 0
                 </div>
             </div>
-            <div class="flex justify-between mt-4">
-                <div class="bg-gray-300 rounded-md px-10 py-2 ml-4">Edit profile</div>
-                <div class="bg-gray-300 rounded-md px-10 py-2">Share profile</div>
-                <span class="material-symbols-outlined bg-gray-300 rounded-md px-4 py-2">
+            <div class="flex justify-between items-center mt-2">
+                <div class="bg-gray-300 rounded-md ml-1 px-7 py-2">Edit profile</div>
+                <div class="bg-gray-300 rounded-md px-7 py-2">Share profile</div>
+                <span class="material-symbols-outlined bg-gray-300 rounded-md px-3 py-2 mr-1">
                     person_add
                 </span>
             </div>
 
             <div class="flex mt-4 ml-2">
                 <li class="list-none">
-                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-4 " src="2.jpg" alt="">
-                    <span class="text-[12px] ml-5">Farewell...</span>
+                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-2 " src="2.jpg" alt="">
+                    <span class="text-[12px] ml-2">Farewell...</span>
                 </li>
                 <li class="list-none">
-                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-4" src="3.jpg" alt="">
-                    <span class="text-[12px] ml-5">Last Day...</span>
+                    <img class="rounded-full w-[60px] border-red-500 border-2 cursor-pointer  ml-3" src="3.jpg" alt="">
+                    <span class="text-[12px] ml-3">Last Day...</span>
                 </li>
                 <li class="list-none">
-                    <img class="rounded-full w-[60px] border-2 cursor-pointer  ml-4" src="plusa.png" alt="">
-                    <span class="text-[12px] ml-8">New</span>
+                    <img class="rounded-full w-[60px] border-2 cursor-pointer  ml-3" src="plusa.png" alt="">
+                    <span class="text-[12px] ml-7">New</span>
                 </li>
             </div>
 
@@ -146,20 +146,20 @@
             </div>
 
             <div class="photos flex">
-                <img class="w-[141px]  cursor-pointer p-0.5 " src="3.jpg" alt="">
-                <img class="w-[141px] cursor-pointer p-0.5" src="6.jpg" alt="">
-                <img class="w-[141px] cursor-pointer p-0.5" src="4.jpg" alt="">
+                <img class="w-[120px]  cursor-pointer p-0.5 " src="3.jpg" alt="">
+                <img class="w-[120px] cursor-pointer p-0.5" src="6.jpg" alt="">
+                <img class="w-[120px] cursor-pointer p-0.5" src="4.jpg" alt="">
 
             </div>
             <div class="photos flex">
-                <img class="w-[141px]  cursor-pointer  p-0.5" src="8.jpg" alt="">
-                <img class="w-[141px] cursor-pointer  p-0.5" src="9.jpg" alt="">
-                <img class="w-[141px] cursor-pointer  p-0.5" src="7.jpg" alt="">
+                <img class="w-[120px]  cursor-pointer  p-0.5" src="8.jpg" alt="">
+                <img class="w-[120px] cursor-pointer  p-0.5" src="9.jpg" alt="">
+                <img class="w-[120px] cursor-pointer  p-0.5" src="7.jpg" alt="">
             </div>
             <div class="photos flex">
-                <img class="w-[141px]  cursor-pointer pb-12 p-0.5" src="5.jpg" alt="">
-                <img class="w-[141px] cursor-pointer pb-12 p-0.5" src="11.jpg" alt="">
-                <img class="w-[141px] cursor-pointer pb-12 p-0.5" src="10.jpg" alt="">
+                <img class="w-[120px]  cursor-pointer pb-12 p-0.5" src="5.jpg" alt="">
+                <img class="w-[120px] cursor-pointer pb-12 p-0.5" src="11.jpg" alt="">
+                <img class="w-[120px] cursor-pointer pb-12 p-0.5" src="10.jpg" alt="">
             </div>
         </div>
 
@@ -168,10 +168,10 @@
         <div class="hidden md:mx-[180px]" id="reelcontent">
             <div class="relative">
                 <div>
-                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="2.mp4" muted
-                        loop autoplay controls></video>
+                    <video class="object-cover object-top h-[640px] w-[408px]  mt-1 rounded-md" src="2.mp4" muted loop
+                        autoplay controls></video>
                 </div>
-                <div class="flex items-center absolute top-[440px] px-4">
+                <div class="flex items-center absolute top-[502px] px-4">
                     <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="10.jpg" alt="">
                     <div class="down flex flex-col m-">
                         <div class="profileN ml-2 cursor-pointer text-white">amangupta1</div>
@@ -180,10 +180,10 @@
                         class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
                         Follow</div>
                 </div>
-                <div class=" absolute top-[495px] ml-6">
-                    <div class="text-white ">Beauty of islam</div>
+                <div class=" absolute top-[540px] ml-16">
+                    <div class="text-white ">Beauty of islam...</div>
                 </div>
-                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                <div class="absolute top-[450px] ml-[90%] flex flex-col gap-5">
 
                     <span class="material-symbols-outlined cursor-pointer invert like" id="like">
                         favorite
@@ -200,10 +200,10 @@
 
             <div class="relative">
                 <div>
-                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="1.mp4" muted
-                        loop autoplay controls></video>
+                    <video class="object-cover object-top h-[640px] w-[408px]  mt-1 rounded-md" src="1.mp4" muted loop
+                        autoplay controls></video>
                 </div>
-                <div class="flex items-center absolute top-[440px] px-4">
+                <div class="flex items-center absolute top-[502px] px-4">
                     <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="3.jpg" alt="">
                     <div class="down flex flex-col m-">
                         <div class="profileN ml-2 cursor-pointer text-white">rahatsriii.</div>
@@ -212,10 +212,10 @@
                         class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
                         Follow</div>
                 </div>
-                <div class=" absolute top-[495px] ml-6">
+                <div class=" absolute top-[540px] ml-16">
                     <div class="text-white ">Deeni Ilm By Tauha</div>
                 </div>
-                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                <div class="absolute top-[450px] ml-[90%] flex flex-col gap-5">
                     <span class="material-symbols-outlined  cursor-pointer invert like" id="like1">
                         favorite
                     </span>
@@ -230,10 +230,10 @@
 
             <div class="relative">
                 <div>
-                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md" src="3.mp4" muted
-                        loop autoplay controls></video>
+                    <video class="object-cover object-top h-[640px] w-[408px]  mt-1 rounded-md" src="3.mp4" muted loop
+                        autoplay controls></video>
                 </div>
-                <div class="flex items-center absolute top-[440px] px-4">
+                <div class="flex items-center absolute top-[502px] px-4">
                     <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="13.jpg" alt="">
                     <div class="down flex flex-col m-">
                         <div class="profileN ml-2 cursor-pointer text-white">abbasraza22</div>
@@ -242,10 +242,10 @@
                         class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
                         Follow</div>
                 </div>
-                <div class=" absolute top-[495px] ml-6">
+                <div class=" absolute top-[540px] ml-16">
                     <div class="text-white ">Beautifull voice...</div>
                 </div>
-                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                <div class="absolute top-[450px] ml-[90%] flex flex-col gap-5">
                     <span class="material-symbols-outlined  cursor-pointer invert like" id="like2">
                         favorite
                     </span>
@@ -260,10 +260,10 @@
 
             <div class="relative">
                 <div>
-                    <video class="object-cover object-top h-[588px] w-[416px] ml-1 mt-1 rounded-md mb-14" src="5.mp4"
-                        muted loop autoplay controls></video>
+                    <video class="object-cover object-top h-[640px] w-[408px]  mt-1 rounded-md mb-14" src="5.mp4" muted
+                        loop autoplay controls></video>
                 </div>
-                <div class="flex items-center absolute top-[440px] px-4">
+                <div class="flex items-center absolute top-[502px] px-4">
                     <img class="rounded-full w-11 border-red-500 border-2 cursor-pointer" src="12.jpg" alt="">
                     <div class="down flex flex-col m-">
                         <div class="profileN ml-2 cursor-pointer text-white">AliRaza</div>
@@ -272,10 +272,10 @@
                         class="blue text-white border-[1px] rounded-md border-white ml-2 font-semibold cursor-pointer px-4">
                         Follow</div>
                 </div>
-                <div class=" absolute top-[495px] ml-6">
+                <div class=" absolute top-[540px] ml-16">
                     <div class="text-white ">Today's Dhikr...</div>
                 </div>
-                <div class="absolute top-[380px] ml-[92%] flex flex-col gap-5">
+                <div class="absolute top-[450px] ml-[90%] flex flex-col gap-5">
                     <span class="material-symbols-outlined  cursor-pointer invert like" id="like3">
                         favorite
                     </span>
@@ -295,18 +295,18 @@
         <div class="second md:w-[54%] border-l w-full overflow-hidden md:overflow-visible  block " id="secondContent">
             <div class="up h-12 md:hidden block ">
                 <div class="flex items-center justify-between">
-                    <img class="w-28 pl-4" src="in.png" alt="">
-                    <span class="material-symbols-outlined  cursor-pointer ml-[50%]">
+                    <img class="w-28 pl-2" src="in.png" alt="">
+                    <span class="material-symbols-outlined  cursor-pointer ml-[42%] ">
                         favorite
                     </span>
-                    <img class="w-5 mr-4" src="chat.png" alt="">
+                    <img class="w-6 mr-4" src="chat.png" alt="">
                 </div>
             </div>
 
             <div
-                class="arrange  gap-[15px] flex  items-center list-none my-4 overflow-scroll md:overflow-visible mr-[100px] ml-[12px] md:ml-[60px]  w-[150%] no-scrollbar">
+                class="arrange  gap-[5px] flex  items-center list-none my-4 overflow-scroll md:overflow-visible mr-[100px] ml-[12px] md:ml-[60px]  w-[150%] no-scrollbar">
                 <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="1.jpg" alt="">
-                    <span class="text-[12px]">maaz_shakeel</span>
+                    <span class="text-[12px]">maaz_shake</span>
                 </li>
 
                 <li><img class="rounded-full w-14 border-red-500 border-2 cursor-pointer" src="2.jpg" alt="">
@@ -373,7 +373,7 @@
                     <span class="material-symbols-outlined ml-2 cursor-pointer">
                         send
                     </span>
-                    <span class="material-symbols-outlined ml-[280px] md:ml-72 cursor-pointer">
+                    <span class="material-symbols-outlined ml-[220px] md:ml-72 cursor-pointer">
                         bookmark
                     </span>
                     <div class="font-semibold ml-2">210,210 likes</div>
@@ -412,7 +412,7 @@
                         </svg></div>
                 </div>
                 <div>
-                    <img class="w-[444px] rounded-sm" src="m-s.jpeg" alt="">
+                    <img class="w-[444px] rounded-sm" src="m-s.jpg" alt="">
                     <span class="material-symbols-outlined  cursor-pointer ml-2" id="like5">
                         favorite
                     </span>
@@ -422,7 +422,7 @@
                     <span class="material-symbols-outlined ml-2 cursor-pointer">
                         send
                     </span>
-                    <span class="material-symbols-outlined ml-[280px] md:ml-72 pt-2  cursor-pointer">
+                    <span class="material-symbols-outlined ml-[220px] md:ml-72 pt-2  cursor-pointer">
                         bookmark
                     </span>
                     <div class="font-semibold ml-2">190,210 likes</div>
@@ -472,7 +472,7 @@
                     <span class="material-symbols-outlined ml-2 cursor-pointer">
                         send
                     </span>
-                    <span class="material-symbols-outlined ml-[280px] md:ml-72 pt-2 cursor-pointer ">
+                    <span class="material-symbols-outlined ml-[220px] md:ml-72 pt-2 cursor-pointer ">
                         bookmark
                     </span>
                     <div class="font-semibold ml-2">320,214 likes</div>
@@ -522,7 +522,7 @@
                     <span class="material-symbols-outlined ml-2 cursor-pointer">
                         send
                     </span>
-                    <span class="material-symbols-outlined ml-[280px] md:ml-72  pt-2  cursor-pointer">
+                    <span class="material-symbols-outlined ml-[220px] md:ml-72  pt-2  cursor-pointer">
                         bookmark
                     </span>
                     <div class="font-semibold ml-2">10,210 likes</div>
@@ -541,7 +541,7 @@
                 </div>
             </div>
 
-            <div class="anchor pt-8 text-gray-400 flex justify-center gap-3 ml-[-20px]  md:ml-0 flex-wrap">
+            <div class="anchor pt-8 text-gray-400 flex justify-center gap-3  ml-[-20px]  md:ml-0 flex-wrap">
                 <a class="text-[12px] pl-4" href="https://www.google.co.in">Google.</a>
                 <a class="text-[12px]" href="https://www.google.co.in">About.</a>
                 <a class="text-[12px]" href="https://www.google.co.in">Help.</a>
@@ -554,7 +554,7 @@
                 <a class="text-[12px]" href="https://www.google.co.in">Language</a>
                 <a class="text-[12px]" href="https://www.google.co.in">Meta </a>
             </div>
-            <div class="foot pt-2 pl-4 pb-14 text-gray-400 flex justify-center ml-[-14px] md:ml-[2px] w-[100%] ">@2024
+            <div class="foot pt-2 pl-4 pb-14 text-gray-400 flex justify-center  ml-[-14px] md:ml-[2px] w-[100%] ">@2024
                 Maaz
                 All Right Reserved</div>
         </div>
@@ -563,26 +563,26 @@
         <!-- Search -->
 
         <div class="hidden md:mx-[180px]" id="SearchContent">
-            <input class="bg-gray-300 border-gray-400 rounded-lg border-2 pl-4 my-3 w-[398px] h-8 ml-3" type="text"
+            <input class="bg-gray-300 border-gray-400 rounded-lg border-2 pl-4 my-1 w-[354px] h-8 ml-1" type="text"
                 placeholder="Search..">
             <div class="flex">
-                <video class="object-cover object-top h-[400px] w-[222px] ml-3 rounded-md" src="1.mp4" muted loop
+                <video class="object-cover object-top h-[400px] w-[190px] ml-0.5 rounded-md" src="1.mp4" muted loop
                     autoplay controls></video>
                 <div>
-                    <video class="object-cover object-top h-[200px] w-[172px] ml-1 rounded-md" src="2.mp4" muted loop
+                    <video class="object-cover object-top h-[200px] w-[161px] ml-1 rounded-md" src="2.mp4" muted loop
                         controls></video>
-                    <video class="object-cover object-top h-[195px] w-[172px] ml-1 rounded-md mt-1" src="3.mp4" muted
+                    <video class="object-cover object-top h-[195px] w-[161px] ml-1 rounded-md mt-1" src="3.mp4" muted
                         loop controls></video>
                 </div>
             </div>
             <div class="flex mb-12">
                 <div class="mt-1">
-                    <img class="object-cover object-top h-[200px] w-[172px] ml-3 rounded-md" src="9.jpg" muted loop
+                    <img class="object-cover object-top h-[200px] w-[161px] ml-0.5 rounded-md" src="9.jpg" muted loop
                         controls></img>
-                    <video class="object-cover object-top h-[195px] w-[172px] ml-3 rounded-md mt-1" src="5.mp4" muted
+                    <video class="object-cover object-top h-[195px] w-[161px] ml-0.5 rounded-md mt-1" src="5.mp4" muted
                         loop controls></video>
                 </div>
-                <video class="object-cover object-top h-[400px] w-[222px] ml-1 rounded-md mt-1" src="4.mp4" muted loop
+                <video class="object-cover object-top h-[400px] w-[190px] ml-1 rounded-md mt-1" src="4.mp4" muted loop
                     autoplay controls></video>
             </div>
         </div>
